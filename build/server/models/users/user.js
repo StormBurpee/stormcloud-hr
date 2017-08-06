@@ -38,7 +38,7 @@ class User extends Model {
     return new Promise((resolve, reject) => {
       let user = this;
       this.getKeyValue("userpassword:"+this.username).then(function(resp){
-        console.log(resp);
+        //console.log(resp);
         if(resp)
           resolve(passwordHash.verify(user.password, resp.password));
         else {
