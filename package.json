@@ -1,6 +1,6 @@
 {
   "name": "stormcloudhr",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "HRM Software provided by StormCloud",
   "main": "index.js",
   "scripts": {
