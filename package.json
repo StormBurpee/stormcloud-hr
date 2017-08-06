@@ -1,0 +1,36 @@
+{
+  "name": "stormcloudhr",
+  "version": "0.0.0",
+  "description": "HRM Software provided by StormCloud",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run build && node build/server/server.js",
+    "build": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StormBurpee/stormcloud-hr.git"
+  },
+  "keywords": [
+    "hrm",
+    "hrm",
+    "software",
+    "stormcloud",
+    "hr"
+  ],
+  "author": "Storm Burpee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StormBurpee/stormcloud-hr/issues"
+  },
+  "homepage": "https://github.com/StormBurpee/stormcloud-hr#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.5",
+    "password-hash": "^1.2.2",
+    "redis": "^2.7.1"
+  }
+}
